@@ -7,10 +7,12 @@ on:
   push:
     branches: 
     - "main"
+    - "Database-Setup"
     
   pull_request:
     branches: 
     - "main"
+    - "Database-Setup"
 
 jobs:
   build:
