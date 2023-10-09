@@ -25,7 +25,7 @@ jobs:
         dotnet-version: 6.0.x
         
     - name: Restore dependencies
-      run: dotnet restore WineHouse/WineHouse.sln
+      run: dotnet restore Winehouse/Winehouse.sln
       
     - name: Build
-      run: dotnet build WineHouse/WineHouse/WineHouse.csproj --no-restore
+      run: dotnet build Winehouse/Winehouse/Winehouse.csproj --no-restore
