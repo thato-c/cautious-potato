@@ -8,7 +8,7 @@
 
         public int ProductId { get; set; }
 
-        public virtual ICollection<Product> Products { get; set; }
-        public virtual ICollection<Customer> Customers { get; set; }
+        public Product Products { get; set; }
+        public Customer Customers { get; set; }
     }
 }

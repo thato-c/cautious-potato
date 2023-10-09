@@ -13,5 +13,7 @@
         public string Product_Brand { get; set; } = string.Empty;
 
         public int Product_Price { get; set; } = 0;
+
+        public virtual ICollection<CustomerProduct> CustomerProduct { get; set; }
     }
 }
